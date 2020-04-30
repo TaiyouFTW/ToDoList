@@ -5,24 +5,22 @@
         <div class="col-10 col-sm-12 offset-1 offset-sm-0">
             <h1 class="text">Tasks:</h1>
             <div #cdkDropList cdkDropList (cdkDropListDropped)="drop($event)">
-                <div class="bg-light" style="border-bottom: 1px solid #2193b0;" *ngFor="let toDo of toDoList; let id = index" cdkDrag>
+                <div class="bg-light" *ngFor="let toDo of toDoList; let id = index" cdkDrag>
                     <div class="container">
                         <div class="row">
-                            <div class="col-2 col-sm-1 my-auto text-center text-info">
-                                <div cdkDragHandle class="p-3 cursor-move">
-                                    <fa-icon [icon]="['fas', 'bars']"></fa-icon>
-                                </div>
+                            <div cdkDragHandle class="col-2 col-sm-1 my-auto text-center text-info py-3 cursor-move">
+                                <fa-icon [icon]="['fas', 'bars']"></fa-icon>
                             </div>
-                            <div class="col-8 col-sm-10 my-auto">
+                            <div class="col-2 col-sm-1 my-auto checkbox">
                                 <p-checkbox animation="jelly" color="info" [checked]="toDo.completed" (change)="toDo.completed = !toDo.completed; isCompleted()">
                                     <i p-icon><fa-icon [icon]="['fas', 'check']"></fa-icon></i>
-                                    <span class="text ml-2" [ngClass]="toDo.completed? 'text-info' : ''">{{toDo.text}}</span>
                                 </p-checkbox>
                             </div>
-                            <div class="col-2 col-sm-1 my-auto">
-                                <div class="p-3 cursor trash float-right" (click)="deleteTask(id, toDo.id)">
-                                    <fa-icon [icon]="['fas', 'trash']"></fa-icon>
-                                </div>
+                            <div class="col-6 col-sm-9 my-auto pl-0 m-checkbox-text">
+                                <span class="text" [ngClass]="toDo.completed? 'text-info' : ''" (click)="toDo.completed = !toDo.completed; isCompleted()">{{toDo.text}}</span>
+                            </div>
+                            <div class="col-2 col-sm-1 my-auto py-3 cursor trash text-center" (click)="deleteTask(id, toDo.id)">
+                                <fa-icon [icon]="['fas', 'trash']"></fa-icon>
                             </div>
                         </div>
                     </div>

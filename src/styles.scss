@@ -46,3 +46,14 @@ body {
 .simpleShadow {
     box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23) !important;
 }
+
+@include media-breakpoint-up(lg) {
+    .checkbox {
+        max-width: 50px !important;
+    }
+
+    .m-checkbox-text {
+        // margin-right: 20px;
+        margin-right: calc(8.3333333333% - 50px);
+    }
+}
