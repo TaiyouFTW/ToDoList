@@ -1,8 +1,6 @@
-# Angular Minimal Template
+# To-do List - [Live on](https://taiyouftw.github.io/ToDoList/)
 
-Template for new projects with some essentials packages and basic structure.
-
-Created using CLI Command: `ng new 'projectName' --minimal --skipTests`
+a simple to-do list
 
 ## Getting Started
 
@@ -13,6 +11,7 @@ These instructions will get you a copy of the project up and running on your loc
 * [Node](https://nodejs.org/en/)
 * [Angular CLI](https://cli.angular.io)
 * [Angular](https://angular.io)
+* [Angular CLI ghpages](https://www.npmjs.com/package/angular-cli-ghpages)
 
 ### Installing
 
@@ -23,7 +22,7 @@ Install all node_modules packages using:
 npm install
 ```
 
-Search for `ToDoList` and `ToDoList` to replace the project name
+Update the `"prod": "ng build --prod --base-href <my-url>",` in package.json
 
 Run
 ```
@@ -36,6 +35,9 @@ For production build you can use:
 ```
 npm run prod
 ```
+```
+npm run github
+```
 
 ## Built With
 
@@ -44,6 +46,7 @@ npm run prod
 * [Angular Material](https://https://material.angular.io)
 * [Bootstrap 4](https://getbootstrap.com)
 * [FontAwesome](https://fontawesome.com)
+* [Pretty Checkbox](https://lokesh-coder.github.io/pretty-checkbox/)
 
 ## Authors
 
