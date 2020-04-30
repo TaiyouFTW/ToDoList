@@ -1,0 +1,48 @@
+@import "variables";
+@import "~bootstrap/scss/functions";
+@import "~bootstrap/scss/variables";
+@import "~bootstrap/scss/mixins";
+@import "~bootstrap/scss/reboot";
+@import "~bootstrap/scss/grid";
+@import "~bootstrap/scss/utilities";
+@import "~bootstrap/scss/buttons";
+@import "~@angular/material/prebuilt-themes/deeppurple-amber.css";
+@import "themes";
+@import "~pretty-checkbox/src/pretty-checkbox.scss";
+@import "~normalize.css";
+
+html,
+body {
+    height: 100%;
+}
+body {
+    margin: 0;
+    font-family: Roboto, "Helvetica Neue", sans-serif;
+
+    background: rgb(109, 213, 237);
+    background: -moz-linear-gradient(180deg, rgba(109, 213, 237, 1) 0%, rgba(33, 147, 176, 1) 100%);
+    background: -webkit-linear-gradient(180deg, rgba(109, 213, 237, 1) 0%, rgba(33, 147, 176, 1) 100%);
+    background: linear-gradient(180deg, rgba(109, 213, 237, 1) 0%, rgba(33, 147, 176, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#6dd5ed",endColorstr="#2193b0",GradientType=1);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+* {
+    &:active,
+    :focus {
+        outline: none !important; // 1
+    }
+}
+
+.container {
+    overflow: hidden;
+}
+
+.wrapper {
+    min-height: calc(100vh - 64px);
+}
+
+.simpleShadow {
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23) !important;
+}

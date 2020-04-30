@@ -1,0 +1,35 @@
+.cdk-drag-preview {
+    box-sizing: border-box;
+    border-radius: 4px;
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075) !important;
+}
+
+.cdk-drag-placeholder {
+    opacity: 0;
+}
+
+.cdk-drag-animating {
+    transition: transform 250ms cubic-bezier(0, 0, 0.2, 1);
+}
+
+.cursor-move {
+    cursor: move;
+}
+
+.spacer {
+    flex: 1 1 auto;
+}
+
+.trash {
+    color: #6c757d;
+    &:hover {
+        cursor: pointer;
+        color:#dc3545;
+    }
+}
+
+
+.text {
+    color: #424851;
+    font-weight: bold;
+}

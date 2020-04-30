@@ -1,0 +1,15 @@
+<div class="container pt-3 pb-5">
+    <div class="row">
+        <div class="col-10 col-sm-12 offset-1 offset-sm-0">
+            <form [formGroup]="newToDoForm" (ngSubmit)="onSubmit()">
+                <mat-form-field appearance="fill" color="primary" class="d-block">
+                    <mat-label>
+                        <fa-icon [icon]="['fas', 'plus']"></fa-icon> Add task
+                    </mat-label>
+                    <input matInput formControlName="toDoItem" autocomplete="off">
+                    <mat-hint>Press enter to add a new task.</mat-hint>
+                </mat-form-field>
+            </form>
+        </div>
+    </div>
+</div>
