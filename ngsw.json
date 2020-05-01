@@ -1,0 +1,84 @@
+{
+  "configVersion": 1,
+  "timestamp": 1588292229365,
+  "index": "https://taiyouftw.github.io/ToDoList/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "urls": [
+        "https://taiyouftw.github.io/ToDoList/5-es2015.b6a750207de49efbe8cc.js",
+        "https://taiyouftw.github.io/ToDoList/5-es5.b6a750207de49efbe8cc.js",
+        "https://taiyouftw.github.io/ToDoList/favicon.ico",
+        "https://taiyouftw.github.io/ToDoList/index.html",
+        "https://taiyouftw.github.io/ToDoList/main-es2015.acf2c601505ab5c6ddd3.js",
+        "https://taiyouftw.github.io/ToDoList/main-es5.acf2c601505ab5c6ddd3.js",
+        "https://taiyouftw.github.io/ToDoList/manifest.webmanifest",
+        "https://taiyouftw.github.io/ToDoList/polyfills-es2015.c1b8d6bcc961c8690424.js",
+        "https://taiyouftw.github.io/ToDoList/polyfills-es5.476f1513e5a6c142d611.js",
+        "https://taiyouftw.github.io/ToDoList/runtime-es2015.402342ee28dbb9c9fab6.js",
+        "https://taiyouftw.github.io/ToDoList/runtime-es5.402342ee28dbb9c9fab6.js",
+        "https://taiyouftw.github.io/ToDoList/styles.2e45fefd6b47a47e2068.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "urls": [
+        "https://taiyouftw.github.io/ToDoList/assets/icons/icon-128x128.png",
+        "https://taiyouftw.github.io/ToDoList/assets/icons/icon-144x144.png",
+        "https://taiyouftw.github.io/ToDoList/assets/icons/icon-152x152.png",
+        "https://taiyouftw.github.io/ToDoList/assets/icons/icon-192x192.png",
+        "https://taiyouftw.github.io/ToDoList/assets/icons/icon-384x384.png",
+        "https://taiyouftw.github.io/ToDoList/assets/icons/icon-512x512.png",
+        "https://taiyouftw.github.io/ToDoList/assets/icons/icon-72x72.png",
+        "https://taiyouftw.github.io/ToDoList/assets/icons/icon-96x96.png"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "https://taiyouftw.github.io/ToDoList/5-es2015.b6a750207de49efbe8cc.js": "90dbb858d066d5835d4ea238c47d04b68b412429",
+    "https://taiyouftw.github.io/ToDoList/5-es5.b6a750207de49efbe8cc.js": "cb65640f175cc18433c1358c73677b533c01f1ec",
+    "https://taiyouftw.github.io/ToDoList/assets/icons/icon-128x128.png": "ce612efa4ca22f49dcddd459861bb403a98b3e8b",
+    "https://taiyouftw.github.io/ToDoList/assets/icons/icon-144x144.png": "3cff146b6acd238d458ec8e41e27c845481a216a",
+    "https://taiyouftw.github.io/ToDoList/assets/icons/icon-152x152.png": "8d39585e0c78d4955c3ec5d2de0e13050d16e86b",
+    "https://taiyouftw.github.io/ToDoList/assets/icons/icon-192x192.png": "97e91a3a9872a9ca5619550baef5f68ffcde38a7",
+    "https://taiyouftw.github.io/ToDoList/assets/icons/icon-384x384.png": "6647f0c0158f3f13afb5d8e89643a3182766a268",
+    "https://taiyouftw.github.io/ToDoList/assets/icons/icon-512x512.png": "250c1aa97d7b2fa59a75cbda79d26ca157859474",
+    "https://taiyouftw.github.io/ToDoList/assets/icons/icon-72x72.png": "99e99ee5091af95b9bbd659c6da3a520763533d0",
+    "https://taiyouftw.github.io/ToDoList/assets/icons/icon-96x96.png": "e0e325e09a8638529d00f7666cc5789a659afe10",
+    "https://taiyouftw.github.io/ToDoList/favicon.ico": "67e7c50d18079124c51d2057b195c681891314e2",
+    "https://taiyouftw.github.io/ToDoList/index.html": "fed54c5326197bdab86143300c90b9b90f5cc8f9",
+    "https://taiyouftw.github.io/ToDoList/main-es2015.acf2c601505ab5c6ddd3.js": "7d64d23f0697b5a71543158c3e12761a1fbc739a",
+    "https://taiyouftw.github.io/ToDoList/main-es5.acf2c601505ab5c6ddd3.js": "e453ebd3557cd00efa5c4d24761ff83958cf8456",
+    "https://taiyouftw.github.io/ToDoList/manifest.webmanifest": "42bcf05631568046946c396f377b897057a6dcb1",
+    "https://taiyouftw.github.io/ToDoList/polyfills-es2015.c1b8d6bcc961c8690424.js": "572a6339dead152bcf71cdd1b5deecdaf5a87572",
+    "https://taiyouftw.github.io/ToDoList/polyfills-es5.476f1513e5a6c142d611.js": "abf67be8d20f99cb2b80aa0a79549516d940b140",
+    "https://taiyouftw.github.io/ToDoList/runtime-es2015.402342ee28dbb9c9fab6.js": "bd10d0a24852fef5f9f949f5b5505cc2f21c3427",
+    "https://taiyouftw.github.io/ToDoList/runtime-es5.402342ee28dbb9c9fab6.js": "33628d730259168418c1e3730610eff26207625b",
+    "https://taiyouftw.github.io/ToDoList/styles.2e45fefd6b47a47e2068.css": "7dc0df3f32226d7d8d4aa8943816e4dbc9527307"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ]
+}
